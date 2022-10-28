@@ -25,3 +25,63 @@
     background: var(--color-black);
     margin: 8px auto;
 }
+
+.transparencia__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.sinconvinho {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 2rem;
+    margin-top: -5rem;
+}
+
+.transparencia_h3 {
+    padding-bottom: 2rem;
+}
+
+.transparencia_item {
+    background: var(--color-green-primary);
+    color: var(--color-white);
+    border-radius: 1rem;
+    text-align: center;
+
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.transparencia_h3 {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-transparencia {
+    width: max-content;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+
+    transition: var(--transition);
+
+    text-align: center;
+}
+
+.btn-transparencia:hover {
+    background: var(--color-green-variant);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.about__icon {
+    width: 4rem;
+    height: 4rem;
+}
