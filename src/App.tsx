@@ -6,6 +6,7 @@ import { Footer } from './components/footer/Footer'
 import { Transparencia } from "./components/transparencia/transparencia"
 import { About } from "./components/about/About"
 import { Contact } from "./components/contact/Contact"
+import { Apoie } from "./components/apoie/apoie"
 
 import { Route, Routes, Link } from "react-router-dom";
 
@@ -21,7 +22,7 @@ function App() {
         <Route path="/transparencia" element={<Transparencia />} />
         <Route path="/contato" element={<Contact />} />
         <Route path="/sobre" element={<About />} />
-
+        <Route path="/apoie" element={<Apoie />} />
       </Routes>
 
       <Footer />

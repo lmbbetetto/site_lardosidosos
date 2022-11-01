@@ -57,3 +57,25 @@
 .socials a {
   font-size: 30px;
 }
+
+.btn_doe1 {
+  position: absolute;
+  width: 110px;
+  display: inline-block;
+  background: var(--color-red);
+  color: var(--color-white);
+  padding: 0.75rem 1.2rem;
+  right: 0.05rem;
+  bottom: 1.1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+
+  transition: var(--transition);
+}
+
+.btn_doe1:hover {
+  background: var(--color-green-primary);
+  color: var(--color-white);
+  border-color: transparent;
+}

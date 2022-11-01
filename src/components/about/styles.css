@@ -25,3 +25,49 @@
     background: var(--color-black);
     margin: 8px auto;
 }
+
+.about-container {
+    max-width: 87%;
+    margin: 0 auto;
+}
+
+.about-maior {
+    background: var(--color-green-primary);
+    height: 30rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.34);
+}
+
+.about-maior p {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.columns-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.coluna {
+    margin-top: 2rem;
+    background: var(--color-green-primary);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.34);
+}
+
+.coluna p {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.coluna1 {
+    margin-left: 1rem;
+}
+
+.coluna2 {
+    margin-right: 1rem;
+}

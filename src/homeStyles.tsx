@@ -2,6 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
+    .main-container {
+      position: fixed;
+      width: 100%;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+
+      background-color: var(--color-white);
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+    }
 
     .mobile {
       position: fixed;
@@ -9,14 +19,8 @@ export const Container = styled.div`
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-
-      padding: 1rem 5rem;
-
-      width: 100%;
+      width: 87%;
       height: 75px;
-    
-      background-color: var(--color-white);
-      box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
     }
     
     .sidenav {
@@ -42,6 +46,12 @@ export const Container = styled.div`
 
     .hamburguer {
       background: transparent;
+    }
+
+    .hamburguer-container {
+      position: fixed;
+      width: 100%;
+      height: 100%;
     }
 
     .logo__casa {

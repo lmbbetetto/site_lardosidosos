@@ -13,13 +13,13 @@ export function Footer() {
         <h1 className="logo_footer">Lar dos Idosos</h1>
         <div className="menu_footer">
           <Link to="/"><a>Início</a></Link>
-          <a>Sobre</a>
-          <a>Transparência</a>
-          <a>Contato</a>
+          <Link to="/sobre"><a>Sobre</a></Link>
+          <Link to="/transparencia"><a>Transparência</a></Link>
+          <Link to="/contato"><a>Contato</a></Link>
         </div>
 
         <div className="footer-btn">
-          <button className="btn_footer">Apoie</button>
+          <Link to="/apoie"><button className="btn_footer">Apoie</button></Link>
         </div>
 
         <div className='socials_1'>

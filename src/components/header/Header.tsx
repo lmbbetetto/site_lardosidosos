@@ -13,19 +13,20 @@ function Header() {
   const [active, setActive] = useState(false)
 
   return (
-    <>
-
+    <div className='main-container'>
       <header className='mobile'>
-        <button
-          className='hamburguer'
-          onClick={() => {
-            setActive(!active)
-          }}
-        >
-          <AnimatedHumburguerButton active={active} />
-        </button>
+        <div className='hamburguer-container'>
+          <button
+            className='hamburguer'
+            onClick={() => {
+              setActive(!active)
+            }}
+          >
+            <AnimatedHumburguerButton active={active} />
+          </button>
+        </div>
         <div className={active ? "activeSidenav" : "sidenav"}>
-          <div className="container_mobile">
+          <div className="container_mobile container-header">
             <div className="mobile_1">
               <Link to="/"><a>Início</a></Link>
               <Link to="/sobre"><a>Sobre</a></Link>
@@ -41,9 +42,9 @@ function Header() {
           </div>
         </div>
         <Link to="/"><img src={logo} alt="Lar dos Idosos" className="logo__casa" /></Link>
-        <button className='btn_doe'>Apoie</button>
+        <Link to="/apoie"><button className='btn_doe1'>Apoie</button></Link>
       </header>
-    </>
+    </div>
   )
 }
 
