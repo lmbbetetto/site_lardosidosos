@@ -23,8 +23,8 @@ export function Footer() {
         </div>
 
         <div className='socials_1'>
-          <a href="" target="_blank"><BsFacebook /></a>
-          <a href="" target="_blank"><BsInstagram /></a>
+          <a href="https://www.facebook.com/lar.dosidosos.12" target="_blank"><BsFacebook /></a>
+          <a href="https://www.instagram.com/lardosidososppta/" target="_blank"><BsInstagram /></a>
         </div>
 
       </div>
