@@ -1,0 +1,29 @@
+.container_apoie {
+    max-width: 87%;
+    margin: 0 auto;
+}
+
+.block {
+    background: var(--color-green-primary);
+    border-radius: 1rem;
+    margin-top: 2rem;
+
+    padding: 2rem 0 2rem 2rem;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.34);
+
+    transition: var(--transition);
+}
+
+.block:hover {
+    border: 3px var(--color-green-variant) solid;
+}
+
+.block p {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.icon_apoie {
+    font-size: 50px;
+}
