@@ -33,7 +33,6 @@
 
 .about-maior {
     background: var(--color-green-primary);
-    height: 30rem;
     border-radius: 1rem;
     margin-top: 3rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.34);
@@ -43,6 +42,21 @@
     max-width: 85%;
     margin: 0 auto;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-maior h1{
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.about-maior h1:after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background: var(--color-white);
 }
 
 .columns-container {
@@ -60,8 +74,33 @@
 .coluna p {
     max-width: 85%;
     margin: 0 auto;
-    padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.coluna h1 {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.coluna h1:after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background: var(--color-white);
+}
+
+.pvalores {
+    padding-top: 2rem;
+}
+
+.pvalores p {
+    padding-bottom: 1rem;
+}
+
+.pcima {
+    padding-top: 2rem;
 }
 
 .coluna1 {
