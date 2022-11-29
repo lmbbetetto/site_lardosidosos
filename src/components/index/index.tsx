@@ -17,9 +17,17 @@ function Index() {
                 <div className='depoimento'></div>
 
                 <div className='index_container'>
-                    <div className='bloco'></div>
+                    <div className='bloco'>
+                        <h1>História</h1>
+                        <p>A Associação São Vicente de Paulo de Paraguaçu “ Lar dos Idosos” ,entidade filantrópica fundada em 1957, tem como estatutária prestar assistência social e proteção a idosos a partir  dos 60 anos...</p>
+                        <Link to="/sobre"><button className='btn-bloco'>Conheça nossa história</button></Link>
+                    </div>
 
-                    <div className='bloco bloco_2'></div>
+                    <div className='bloco bloco_2'>
+                        <h1>Ajude-nos!</h1>
+                        <p>Descubra as diferentes maneiras de ajudar o Lar dos idosos!</p>
+                        <Link to="/apoie"><button className='btn_doe_index'>Apoie</button></Link>
+                    </div>
                 </div>
             </div>
 

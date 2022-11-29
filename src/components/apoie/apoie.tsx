@@ -12,23 +12,24 @@ export function Apoie() {
                 <h1 className="trans_linha"></h1>
             </div>
 
-            <div className="container_apoie">
-                <div className="block">
-                    <p className="icon_apoie"><BsCashCoin /></p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                </div>
+            <section className="container_apoie">
+                <div className="apoie_column">
+                    <article className="block">                     
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p className="icon_apoie"><BsCashCoin /></p>
+                    </article>
 
-                <div className="block">
-                    <p className="icon_apoie"><BsCreditCardFill /></p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                </div>
+                    <article className="block">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p className="icon_apoie"><BsCreditCardFill /></p>
+                    </article>
 
-                <div className="block">
-                    <p className="icon_apoie"><RiHandHeartFill /></p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <article className="block">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p className="icon_apoie"><RiHandHeartFill /></p>
+                    </article>
                 </div>
-
-            </div>
+            </section>
         </>
     )
 }

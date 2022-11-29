@@ -3,27 +3,25 @@
     margin: 0 auto;
 }
 
+.apoie_column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
 .block {
     background: var(--color-green-primary);
     border-radius: 1rem;
     margin-top: 2rem;
 
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     box-shadow: 5px 5px 30px rgba(0,0,0,0.34);
 
     transition: var(--transition);
 }
 
-.block:hover {
-    border: 3px var(--color-green-variant) solid;
-}
-
-.block p {
-    text-align: center;
-    max-width: 60%;
-    margin: 0 auto;
-}
-
 .icon_apoie {
+    text-align: center;
+    margin-top: 2rem;
     font-size: 50px;
 }
