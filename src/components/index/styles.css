@@ -116,8 +116,8 @@
 }
 
 .btn-bloco:hover {
-    background: transparent;
-    border: 1.5px var(--color-white) solid;
+    background: var(--color-green-button);
+    border: transparent;
 }
 
 .bloco_2 {
@@ -144,6 +144,6 @@
   }
   
   .btn_doe_index:hover {
-    background: transparent;
-    border: 1.5px var(--color-white) solid;
+    background: var(--color-green-button);
+    border: transparent;
   }

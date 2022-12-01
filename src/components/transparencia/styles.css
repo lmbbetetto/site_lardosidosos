@@ -49,8 +49,8 @@
     border-radius: 1rem;
     text-align: center;
 
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .transparencia_h3 {
@@ -63,7 +63,7 @@
     width: max-content;
     display: inline-block;
     background: transparent;
-    border: 2px solid var(--color-white);
+    background: var(--color-green-variant);
     color: var(--color-white);
     padding: 0.75rem 1.2rem;
     border-radius: 1rem;
@@ -76,9 +76,9 @@
 }
 
 .btn-transparencia:hover {
-    background: var(--color-green-variant);
+    background: var(--color-green-button);
+    border: transparent;
     color: var(--color-white);
-    border-color: transparent;
 }
 
 .about__icon {

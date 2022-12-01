@@ -30,8 +30,7 @@ export function Transparencia() {
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
                         <h3 className='transparencia_h3'>Relatório Fotografico | Relatório Anual de Atividades - 2021</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Fotos</a>
-                        <a href="" target='_blank' className="btn-transparencia">Atividades</a>
+                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
 
                     <article className='transparencia_item'>
