@@ -137,6 +137,10 @@ export const Container = styled.div`
         color: var(--color-white);
         border-color: transparent;
       }
+
+      .mobile_1 {
+        padding-left: 5rem;
+      }
     }
   }
 `;
