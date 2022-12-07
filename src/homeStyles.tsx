@@ -63,7 +63,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     .main-container {
       display: none;
     }

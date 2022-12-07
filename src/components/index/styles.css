@@ -148,7 +148,7 @@
     border: transparent;
   }
 
-  @media (max-width: 780px) {
+  @media (max-width: 1024px) {
     .foto {
         height: 30rem;
     }
@@ -176,5 +176,15 @@
 
     .bloco_2 {
         margin-left: 0;
+    }
+  }
+
+  @media (max-width: 600) {
+    .foto {
+        height: 4rem;
+    }
+
+    .foto p {
+        max-width: 50%;
     }
   }
