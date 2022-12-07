@@ -147,3 +147,34 @@
     background: var(--color-green-button);
     border: transparent;
   }
+
+  @media (max-width: 780px) {
+    .foto {
+        height: 30rem;
+    }
+
+    .foto p {
+        max-width: 80%;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-top: 7rem;
+        text-align: center;
+    }
+
+    .botao {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .depoimento {
+        margin-top: -2rem;
+    }
+
+    .index_container {
+        grid-template-columns: 1fr;
+    }
+
+    .bloco_2 {
+        margin-left: 0;
+    }
+  }
