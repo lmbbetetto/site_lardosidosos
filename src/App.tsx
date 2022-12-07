@@ -20,7 +20,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/transparencia" element={<Transparencia />} />
-        <Route path="/contato" element={<Contact />} />
+        <Route path="/contato" element={<Contact onSubmitContact={function (e: any): void {
+          throw new Error("Function not implemented.")
+        } } />} />
         <Route path="/sobre" element={<About />} />
         <Route path="/apoie" element={<Apoie />} />
       </Routes>
