@@ -179,12 +179,22 @@
     }
   }
 
-  @media (max-width: 600) {
+  @media (max-width: 600px) {
     .foto {
-        height: 4rem;
+        height: 15rem;
     }
 
     .foto p {
-        max-width: 50%;
+        padding-top: 6rem;
+        max-width: 70%;
+        font-size: 7px;
+    }
+
+    .botao {
+        
+    }
+
+    .depoimento {
+        margin-top: -1rem;
     }
   }
