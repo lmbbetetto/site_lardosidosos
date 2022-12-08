@@ -98,3 +98,18 @@
 .copy a:hover {
     color: var(--color-green-variant);
 }
+
+@media (max-width: 600px) {
+    .menu_footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_footer {
+        height: 100%;
+    }
+
+    .copy {
+        margin: 0;
+    }
+}

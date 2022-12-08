@@ -181,16 +181,45 @@
 
   @media (max-width: 600px) {
     .foto {
-        height: 15rem;
+        height: 17rem;
     }
 
     .foto p {
         padding-top: 6rem;
         max-width: 70%;
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .depoimento {
         margin-top: -1rem;
+        height: 20rem;
     }
+
+    .botao {
+        display: none;
+    }
+
+    .bloco h1 {
+        font-size: 30px;
+    }
+
+    .bloco p {
+        padding-top: 1rem;
+        padding-bottom: 0;
+        font-size: 15px;
+    }
+
+    .bloco button {
+        margin-left: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .bloco_2 {
+        height: 13.8rem;
+    }
+
+    .btn_doe_index {
+        margin-top: 2rem;
+    }
+
   }
