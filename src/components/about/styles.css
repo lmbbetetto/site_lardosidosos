@@ -112,3 +112,21 @@
 .coluna2 {
     margin-right: 1rem;
 }
+
+@media (max-width: 600px) {
+    .sobre_header {
+        height: 17rem;
+    }
+
+    .columns-container {
+        grid-template-columns: 1fr;
+    }
+
+    .coluna1 {
+        margin-left: 0;
+    }
+
+    .coluna2 {
+        margin-right: 0;
+    }
+}

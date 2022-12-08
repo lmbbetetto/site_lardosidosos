@@ -85,3 +85,9 @@
     width: 4rem;
     height: 4rem;
 }
+
+@media (max-width: 600px) {
+    .transparencia__container {
+        grid-template-columns: 1fr;
+    }
+}
