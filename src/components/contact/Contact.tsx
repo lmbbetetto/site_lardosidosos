@@ -3,6 +3,7 @@ import "./styles.css"
 import { GiPositionMarker } from 'react-icons/gi'
 import { BsTelephone } from 'react-icons/bs'
 import { BsFacebook } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -44,21 +45,28 @@ export function Contact({ onSubmitContact }: ContactType) {
                     <article className="contact__option">
                         <GiPositionMarker className='contact__option-icon' />
                         <h4>Endereço</h4>
-                        <h5>Rua Rui Ferreira da Rocha, 66 - Barra Funda</h5>
+                        <h5>Av. Manoel Antônio de Souza, 1806 - Barra Funda</h5>
                         <h5>Paraguaçu Paulista - SP</h5>
                     </article>
 
                     <article className="contact__option">
                         <BsTelephone className='contact__option-icon' />
                         <h4>Telefone</h4>
-                        <h5>+55 18 3361-1413</h5>
+                        <h5>+55 18 3361-1814</h5>
                     </article>
 
                     <article className="contact__option">
                         <BsFacebook className='contact__option-icon' />
                         <h4>Facebook</h4>
                         <h5>ACIPP Casa Abrigo</h5>
-                        <a href="https://www.facebook.com/acippcasaabrigo/" target='_blank'>Acesse</a>
+                        <a href="https://www.facebook.com/lar.dosidosos.12" target='_blank'>Acesse</a>
+                    </article>
+
+                    <article className="contact__option">
+                        <BsInstagram className='contact__option-icon' />
+                        <h4>Instagram</h4>
+                        <h5>ACIPP Casa Abrigo</h5>
+                        <a href="https://www.instagram.com/lardosidososppta/" target='_blank'>Acesse</a>
                     </article>
 
                 </div>
