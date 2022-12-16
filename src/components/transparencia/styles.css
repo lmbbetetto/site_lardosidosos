@@ -92,4 +92,8 @@
     .transparencia__container {
         grid-template-columns: 1fr;
     }
+
+    .trans_header {
+        height: 16rem;
+    }
 }
