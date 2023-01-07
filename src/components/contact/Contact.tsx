@@ -7,6 +7,8 @@ import { BsInstagram } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
+import imgMap from '../../assets/mapa.png'
+
 type ContactType = {
     onSubmitContact: (e: any) => void
 }
@@ -39,6 +41,7 @@ export function Contact({ onSubmitContact }: ContactType) {
                     <input type="phone" name="phone" placeholder='Telefone' required />
                     <textarea name="message" rows={7} placeholder='Mensagem' required></textarea>
                     <button type='submit' onClick={onSubmitContact} className='btn_doe'>Enviar</button>
+                    <img className="mapaIMG" src={imgMap} alt="Mapa" />
                 </form>
 
                 <div className="contact__options block_contact">

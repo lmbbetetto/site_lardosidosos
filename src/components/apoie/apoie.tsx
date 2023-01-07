@@ -14,19 +14,27 @@ export function Apoie() {
 
             <section className="container_apoie">
                 <div className="apoie_column">
-                    <article className="block">                     
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <p className="icon_apoie"><BsCashCoin /></p>
+                    <article className="block">
+                        <p className="icon_apoie"><BsCashCoin /></p>
+                        <strong>Pix</strong>
+                        <p>44.545.689/0001-05</p>
                     </article>
 
                     <article className="block">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <p className="icon_apoie"><BsCreditCardFill /></p>
+                        <p className="icon_apoie"><BsCreditCardFill /></p>
+                        <strong>Conta bancária</strong>
+                        <p>
+                            Agencia: 0404<br />
+                            Conta: 0010481-7<br />
+                            Conta Corrente<br />
+                            Associação São Vicente de Paulo de Paraguaçu Paulista
+                        </p>
                     </article>
 
                     <article className="block">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <p className="icon_apoie"><RiHandHeartFill /></p>
+                        <p className="icon_apoie"><RiHandHeartFill /></p>
+                        <strong>Doações presenciais</strong>
+                        <p>Avenida Manoel Antonio de Souza,1806, Barra Funda - Paraguaçu Paulista - SP</p>
                     </article>
                 </div>
             </section>
