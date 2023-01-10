@@ -3,6 +3,13 @@ import "./styles.css"
 import { MdPictureAsPdf } from 'react-icons/md'
 import { BsBookmarksFill } from 'react-icons/bs'
 
+import ata2022 from '../../assets/transparencia_item/Ata-2022.pdf'
+import comprovante from '../../assets/transparencia_item/Comprovante-de-Inscrição-e-de-Situação-Cadastral.pdf'
+import cmas from '../../assets/transparencia_item/CMAS-2021.pdf'
+import crce from '../../assets/transparencia_item/CRCE.pdf'
+import estatuto from '../../assets/transparencia_item/Estatuto-Social.pdf'
+import portarias from '../../assets/transparencia_item/PORTARIAS-MC-CEBAS-11.10.2022.pdf'
+
 export function Transparencia() {
     return (
         <>
@@ -23,38 +30,38 @@ export function Transparencia() {
                 <div className="container transparencia__container">
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
-                        <h3 className='ata transparencia_h3'>Ata de eleiçao gestão - 2021/2022</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
+                        <h3 className='ata transparencia_h3'>Ata de eleiçao - /2022</h3>
+                        <a href={ata2022} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
 
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
-                        <h3 className='transparencia_h3'>Relatório Fotografico | Relatório Anual de Atividades - 2021</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
+                        <h3 className='transparencia_h3'>Estatuto</h3>
+                        <a href={estatuto} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
 
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
-                        <h3 className='transparencia_h3'>Proposta e Plano de Trabalho 06/2022 TF 11/2022</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
+                        <h3 className='transparencia_h3'>Comprovante de Inscrição e Situação Cadastral</h3>
+                        <a href={comprovante} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
 
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
-                        <h3 className='transparencia_h3'>Proposta e Plano de Trabalho 07/2022 TF 12/2022</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
+                        <h3 className='transparencia_h3'>Conselho Municipal de Assistencia Social</h3>
+                        <a href={cmas} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
 
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
-                        <h3 className='transparencia_h3'>Proposta e Plano de Trabalho 08/2022 TF 13/2022</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
+                        <h3 className='transparencia_h3'>Certificado de Regularidade Cadastral de Entidades</h3>
+                        <a href={crce} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
 
                     <article className='transparencia_item'>
                         <MdPictureAsPdf className='about__icon' />
-                        <h3 className='transparencia_h3'>Proposta e Plano de Trabalho 08/2022 TF 13/2022</h3>
-                        <a href="" target='_blank' className="btn-transparencia">Abrir</a>
+                        <h3 className='transparencia_h3'>Portarias MC Cebas - 2022</h3>
+                        <a href={portarias} target='_blank' className="btn-transparencia">Abrir</a>
                     </article>
                 </div>
             </section>
