@@ -6,7 +6,7 @@ function Index() {
     return (
         <>
             <div className='foto'>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>“Acolher é encolher as distâncias, aquecer o frio e compartilhar gentilezas, que as nossas ações sejam sempre inspirações.”</p>
                 <div className='botao'>
                     <Link to="/contato"><button className='btn-1 btn-index'>Contato</button></Link>
                     <Link to="/sobre"><button className='btn-2 btn-index'>Conheça o Lar dos Idosos</button></Link>
@@ -14,8 +14,6 @@ function Index() {
             </div>
 
             <div className='container'>
-                {/* <div className='depoimento'></div> */}
-
                 <div className='index_container'>
                     <div className='bloco'>
                         <h1>História</h1>
