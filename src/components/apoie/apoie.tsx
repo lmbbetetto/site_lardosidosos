@@ -34,7 +34,7 @@ export function Apoie() {
                     <article className="block">
                         <p className="icon_apoie"><RiHandHeartFill /></p>
                         <strong>Doações presenciais</strong>
-                        <p>Avenida Manoel Antonio de Souza,1806, Barra Funda - Paraguaçu Paulista - SP</p>
+                        <p>Avenida Manoel Antonio de Souza, 1806, Barra Funda - Paraguaçu Paulista - SP</p>
                     </article>
                 </div>
             </section>
