@@ -61,14 +61,14 @@ export function Contact({ onSubmitContact }: ContactType) {
                     <article className="contact__option">
                         <BsFacebook className='contact__option-icon' />
                         <h4>Facebook</h4>
-                        <h5>ACIPP Casa Abrigo</h5>
+                        <h5>Lar dos Idosos</h5>
                         <a href="https://www.facebook.com/lar.dosidosos.12" target='_blank'>Acesse</a>
                     </article>
 
                     <article className="contact__option">
                         <BsInstagram className='contact__option-icon' />
                         <h4>Instagram</h4>
-                        <h5>ACIPP Casa Abrigo</h5>
+                        <h5>Lar dos Idosos</h5>
                         <a href="https://www.instagram.com/lardosidososppta/" target='_blank'>Acesse</a>
                     </article>
 

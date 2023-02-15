@@ -4,10 +4,9 @@
 }
 
 .foto {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent), url("../../assets/about_img.jpeg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent), url("../../assets/about_img.jpeg");
     width: 100%;
     height: 40rem;
-    /* background: url('../../assets/about_img.jpeg'); */
     background-position: center top;
     background-size: 100%;
 }
@@ -15,9 +14,10 @@
 .foto p {
     max-width: 50%;
     padding-top: 10rem;
-    /* margin: 0 auto; */
-    /* text-align: center; */
-    padding-left: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    /* padding-left: 8rem; */
     /* text-shadow: var(--color-black) 0.1em 0.1em 0.2em; */
     
 }
@@ -44,10 +44,10 @@
 .botao {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 1rem;
 
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
 }
 
 .botao button {
